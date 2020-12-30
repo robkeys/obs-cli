@@ -35,6 +35,6 @@ func stopStream() error {
 }
 
 func init() {
-	// rootCmd.AddCommand(startStreamCmd)
+	rootCmd.AddCommand(startStreamCmd)
 	rootCmd.AddCommand(stopStreamCmd)
 }
